@@ -1,4 +1,4 @@
-FROM lbo2ercn.mirror.aliyuncs.comnvidia/cuda:12.9.1-cudnn-runtime-ubuntu24.04
+FROM docker.1ms.run/cuda:12.9.1-cudnn-runtime-ubuntu24.04
 
 ARG FACEFUSION_VERSION=3.4.2
 ENV GRADIO_SERVER_NAME=0.0.0.0
